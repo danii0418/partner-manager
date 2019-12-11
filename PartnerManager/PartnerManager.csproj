@@ -6,14 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Views\Socios\**" />
-    <Content Remove="Views\Socios\**" />
-    <EmbeddedResource Remove="Views\Socios\**" />
-    <None Remove="Views\Socios\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Remove="Controllers\SociosController.cs" />
+    <None Include="Views\Socios\Create.cshtml" />
+    <None Include="Views\Socios\Delete.cshtml" />
+    <None Include="Views\Socios\Details.cshtml" />
+    <None Include="Views\Socios\Edit.cshtml" />
+    <None Include="Views\Socios\Index.cshtml" />
   </ItemGroup>
 
 
